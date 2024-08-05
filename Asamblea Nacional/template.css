@@ -1,0 +1,29 @@
+.hot-topics-icon{
+    display: none !important;
+}
+
+.hot-topics-swipe::before, .hot-topics-swipe::after {    
+     background-image: none !important; 
+}
+
+.hot-topics{
+    border-bottom: none !important;
+}
+
+main .newsletter-module, main .bbnx-tags{
+    display: none !important;
+}
+
+.newsletter-module{
+    display: none !important;
+}
+
+.widget_mgid{
+    display: none !important;
+}
+
+.mowplayer-container{
+    display: none !important;
+}
+
+

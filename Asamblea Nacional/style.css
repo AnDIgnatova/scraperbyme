@@ -1,0 +1,224 @@
+
+
+.newsletter-module {
+    background: rgb(138, 21, 56);
+    background: linear-gradient(0deg, rgba(138, 21, 56, 1) 0%, rgba(28, 1, 17, 1) 100%);
+}
+
+.newsletter-module-form .bbnx-input-radio__wrapper a,
+.bbnx-input-radio__label p,
+.newsletter-module-title {
+    color: #fff;
+}
+
+.bbnx-btn.disabled {
+    opacity: 1;
+}
+
+.newsletter-module .bbnx-btn {
+    background: #FF004C;
+}
+
+
+.bbnx-body h2.heading {
+    font-size: 24px;
+    line-height: 1.2;
+}
+
+#content-body {
+    margin-bottom: 40px;
+}
+
+.widget_mgid {
+    width: 960px;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+:root {
+    --background-color: #003676;
+    --text-color: #FFF;
+    --background-accent-color: #003676;
+    --text-accent-color: #FFF;
+}
+
+.mow input[type="range"]::-ms-fill-lower {
+    background-image: linear-gradient(to right, #FF365D, #941AA1)
+}
+
+.mow-type_audio .mow__track-info-title {
+    color: #FF365D
+}
+
+.mow-type_audio .mow__live-badge {
+    color: #FF365D
+}
+
+.mow-type_audio .mow__live-badge:before {
+    background: #FF365D
+}
+
+.mow input[type="range"]::-ms-thumb {
+    background-color: #b14f90;
+}
+
+.mow__playlist_type_audio .mow__video-wrapper:before {
+    padding-top: 56.25%;
+}
+
+.custom-form {
+   max-width: 700px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.submitBnt{
+    font-family: inherit;
+    color: #ffffff !important;
+    background-color: #058;
+    border: none;
+    border-radius: 8px;
+    line-height: normal;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+  }
+  
+  .custom-form-group label a{
+    color: #058;
+  }
+  
+  .custom-form-control{
+    margin-bottom: 15px;
+    padding-left: 16px;
+    border: 1px solid #dfe9f1;
+    font-size: 14px;
+    height: 45px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    color: #9197b5;
+    border-radius: 30px;
+  }
+  
+  
+  .custom-form-group label{
+      color: #000;
+      margin-left: 8px;
+      text-align: left;
+    font-weight: 300;
+    font-family: inherit;
+    font-size: 14px;
+      cursor: pointer;
+    font-style: italic;
+      display: inline-block;
+  }
+  
+  .mandatory{
+      color: #EC3324;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 8px;
+  
+  }
+  
+  .custom-form-group{
+      display: flex;
+      margin-top: 16px;
+  }
+  
+  .custom-form-group input{
+      border: 1px solid #CCC;
+    background: #FFF;
+    padding: 0 12px;
+    line-height: 38px;
+    margin: 0 0 10px 0;
+    box-shadow: inset 0 3px 2px #EEE;
+    border-radius: 2px;
+      width: 13px !important;
+      height: 13px !important;
+  }
+
+
+  .header-wrapper .header-nav .main-nav__toggle {
+    @media (min-width: 1098px) {
+        display: none;
+      }
+  }
+
+  .header-wrapper .header-nav .header-link-first {
+    @media (max-width: 1098px) {
+        display: none;
+      }
+  }
+  
+  .section-opening .header-link:first-child {
+    margin: 0;
+}
+
+.section-opening .header-link {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0;
+    margin: 0 0 0 30px;
+    color: var(--text-accent-color, var(--text-color, #fff));
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.section-opening .header-link .arrow {
+    width: 24px;
+    height: 24px;
+    margin: 0 0 0 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav--closed {
+    display: none;
+  }
+
+.main-nav--opened  {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            padding: 15px 30px 15px 15px;
+            background-color: #fff;
+            color: #000;
+            font-family: "Oxygen", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            letter-spacing: 0;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: auto;
+            grid-gap: 15px;
+            z-index: 2;
+            justify-items: flex-start;
+            box-shadow: 0 24px 48px 2px rgba(0, 0, 0, .25);
+        }
+
+        .closed_menu #burgerMenu {
+            display: none;
+            position: fixed;
+            flex-wrap: wrap;
+            z-index: 99;
+            bottom: 0;
+            left: 0;
+            top: 0;
+            height: 100vh;
+            width: 300px;
+            background: #fff;
+            box-shadow: 0 0 50px 50px rgba(0, 0, 0, .25);
+        }
+
+        .open_menu #burgerMenu {
+            display: flex;
+        }
